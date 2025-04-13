@@ -95,7 +95,7 @@ echo -e "$BGreen      Install SSH Websocket           $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/hokagelegend2023/Lite/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget hhttps://raw.githubusercontent.com/hokagelegend9999/lite/refs/heads/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen          Install XRAY              $NC"
@@ -149,7 +149,7 @@ if [ ! -f "/etc/log-create-shadowsocks.log" ]; then
 echo "Log Shadowsocks Account " > /etc/log-create-shadowsocks.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/hokagelegend2023/ijinpremium/main/lite  )
+serverV=$( curl -sS https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/lite  )
 echo $serverV > /opt/lite
 aureb=$(cat /home/re_otm)
 b=11
