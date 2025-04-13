@@ -13,10 +13,10 @@ rm -rf log-install.txt
 rm -rf /root/domain
 echo "\e[1;32m INSTALL SLOW DNS & UDP COSTUM... \e[0m"
 echo "\e[1;32m Proses Download Script Slowdns.. \e[0m"
-wget https://raw.githubusercontent.com/hokagelegend2023/Lite/main/slowdns/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget https://raw.githubusercontent.com/hokagelegend9999/lite/refs/heads/main/slowdns/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 sleep 1
 echo "\e[1;32m Proses Download Script OpenVPN.. \e[0m"
-wget https://raw.githubusercontent.com/hokagelegend2023/Lite/main/udp-custom/openvpn/openvpn.sh && chmod +x openvpn.sh && ./openvpn.sh
+wget https://raw.githubusercontent.com/hokagelegend9999/lite/refs/heads/main/udp-custom/openvpn/openvpn.sh && chmod +x openvpn.sh && ./openvpn.sh
 sleep 1
 rm -rf /root/udp
 mkdir -p /root/udp
